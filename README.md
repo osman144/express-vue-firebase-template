@@ -3,12 +3,16 @@ A repository for barebones Typescript + Express + Petite Vue + Firebase Function
 
 ## Run project
 From the terminal or command line, launch the application.
+
+
 ``npm run start`` 
+
 
 The TypeScript compiler does the work of generating the JavaScript files and copies them to the dist folder. 
 
 ## Includes tslint library 
 Instructs TypeScript how to lint your code, to alert you to potential problems in your code beyond syntax issues.
+
 
 Use ``npm run build`` to start TSLint and Typescript compiler without starting Node.js server.
 
@@ -22,12 +26,22 @@ petite-vue can be used without a build step. Load it from a CDN.
 
 https://firebase.google.com/docs/cli#setup_update_cli
 
+Install firebase-cli globally. 
+
+
 ``npm install -g firebase-tools``
+
 - Log into Firebase using your Google account by running the following command:
+
+
 ``firebase login``
+
+
 ``firebase projects:list``
 
 Run the following command to initialize Firebase functions:
+
+
 ``firebase init functions``
 
 
