@@ -19,7 +19,12 @@ Use ``npm run build`` to start TSLint and Typescript compiler without starting N
 
 ## Petite-Vue library
 https://github.com/vuejs/petite-vue
-petite-vue can be used without a build step. Load it from a CDN.
+
+```
+petite-vue is an alternative distribution of Vue optimized for progressive enhancement. It provides the same template syntax and reactivity mental model with standard Vue. However, it is specifically optimized for "sprinkling" small amount of interactions on an existing HTML page rendered by a server framework
+Petite-vue can be used without a build step. It can be loaded it from a CDN.
+```
+- Petite vue team
 
 ## Use Firebase for database and User authentication if needed
 ### Using firebase-CLI to make things easier
