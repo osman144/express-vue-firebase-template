@@ -1,8 +1,16 @@
+import dotenv from "dotenv";
 import express from "express";
-import path from 'path';
+import path from "path";
 const app = express();
-const port = 8080; // default port to listen
 const router = express.Router();
+
+
+// initialize configuration
+dotenv.config();
+
+// port is now available to the Node.js runtime 
+// as if it were an environment variable
+const port = process.env.SERVER_PORT;
 
 app.use(express.static(path.join(__dirname, 'client', 'dist')));
 
